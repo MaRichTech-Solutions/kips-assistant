@@ -38,7 +38,7 @@ async function UserOrLogin() {
           <UserMenu user={session.user} />
         ) : (
           <Button variant="link" asChild className="-ml-2">
-            <Link href="#">Kip's Assistant</Link>
+            <Link href="#">Kips Assistant</Link>
           </Button>
         )}
       </div>
